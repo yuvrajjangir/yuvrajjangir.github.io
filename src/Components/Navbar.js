@@ -76,7 +76,7 @@ function NavBar() {
               <Nav.Link
               className="nav-link skills"
                 as={Link}
-                to="/about"
+                to="/skills"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineBars style={{ marginBottom: "2px" }} /> Skills

@@ -586,6 +586,7 @@ button:focus {
 /* --------- */
 
 .about-section {
+  background-color: #0c0513;
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
@@ -597,6 +598,7 @@ button:focus {
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
+  color: white;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
