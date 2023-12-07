@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar';
@@ -7,7 +7,6 @@ import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
 } from "react-router-dom";
 import Footer from './Components/Footer';
 import About from './Components/About/About';
