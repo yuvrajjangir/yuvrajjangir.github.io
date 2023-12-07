@@ -124,7 +124,7 @@ button:focus {
 }
 
 .navbar {
-  background-color: #0c0513;
+  /* background-color: #0c0513; */
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
@@ -360,6 +360,7 @@ button:focus {
 }
 
 .home-about-section {
+  background-color: #0c0513;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
