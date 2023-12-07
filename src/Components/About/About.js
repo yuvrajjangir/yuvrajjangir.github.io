@@ -10,13 +10,11 @@ import { ImPointRight } from "react-icons/im";
 
 function About() {
   return (
-    <div id="about" className="about-section" >
-    <Container fluid>
+    <Container fluid id="about" className="about-section">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-           id="about"
             md={7}
             style={{
               justifyContent: "center",
@@ -27,10 +25,9 @@ function About() {
             <h1  style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Know Who <strong className="purple">I'M</strong>
             </h1>
-            <div id="user-detail-intro">
             <Card className="quote-card-view" >
       <Card.Body>
-        <blockquote className="blockquote mb-0" >
+        <blockquote className="blockquote mb-0"  id="user-detail-intro" >
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yuvraj Jangir </span>
             from <span className="purple"> Rajasthan, India.</span>
@@ -59,7 +56,6 @@ function About() {
         </blockquote>
       </Card.Body>
     </Card>
-    </div>
           </Col>
           <Col
             md={5}
@@ -71,7 +67,6 @@ function About() {
         </Row>
       </Container>
     </Container>
-    </div>
   );
 }
 
