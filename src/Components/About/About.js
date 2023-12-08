@@ -26,9 +26,9 @@ function About() {
               Know Who <strong className="purple">I'M</strong>
             </h1>
             <Card className="quote-card-view" >
-      <Card.Body>
-        <blockquote className="blockquote mb-0"  id="user-detail-intro" >
-          <p style={{ textAlign: "justify" }}>
+      <Card.Body >
+        <blockquote className="blockquote mb-0"  >
+          <div id="user-detail-intro" style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Yuvraj Jangir </span>
             from <span className="purple"> Rajasthan, India.</span>
             <br />
@@ -36,7 +36,7 @@ function About() {
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
-          </p>
+          </div>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
@@ -48,7 +48,6 @@ function About() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
             "In the middle of difficulty lies opportunity."{" "}
           </p>

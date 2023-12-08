@@ -8,13 +8,15 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Particle from "../Particle";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid id="about" className="about-section" >
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        <Particle/>
+        <Row >
+          <Col md={8} className="home-about-description" id="user-detail-intro">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>

@@ -359,8 +359,30 @@ button:focus {
   }
 }
 
-.home-about-section {
-  background-color: #0c0513;
+.skills-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+  grid-gap: 60px; /* Adjust gap between cards */
+  justify-items: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+}
+.allskills{
+     background-color:#1a1030;
+     padding-top: 30px;
+     padding-bottom: 50px;
+}
+.skill-name{
+  justify-content:center;
+  padding: 10px;
+  margin-top: 1.5rem;
+}
+
+
+
+.about-section{
+  background-color: 
+#0e0919;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
@@ -585,20 +607,16 @@ button:focus {
 /* About */
 /* --------- */
 
-.about-section {
-  background-color: #0c0513;
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
-}
 
-.tech-icons {
+
+.skills-card {
   font-size: 4.5em !important;
+  width: 100%;
   margin: 15px !important;
   padding: 10px !important;
   color: white;
+  display: grid;
+  grid-column-end: inherit;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
@@ -611,17 +629,30 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .tech-icons {
+  .skills-card {
     margin: 10px !important;
   }
+  .skills-container {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+    grid-gap: 20px; /* Adjust gap between cards */
+    justify-items: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .skills-card {
+    text-align: center;
+  }
+  
 }
 
-.tech-icons:hover {
+.skills-card:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
-.tech-icon-images {
+.skills-card-images {
   padding: 20px !important;
   line-height: 1.6 !important;
 }

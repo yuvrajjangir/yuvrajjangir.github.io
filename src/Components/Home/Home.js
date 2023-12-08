@@ -6,11 +6,12 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Particle from "../Particle";
 
+
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
+        <Particle/>
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -42,7 +43,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
     </section>
   );
 }

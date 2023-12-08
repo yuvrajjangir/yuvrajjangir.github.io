@@ -56,7 +56,7 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link className="nav-link home" as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link className="nav-link home" href="#home" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -64,8 +64,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
               className="nav-link about"
-                as={Link}
-                to="/about"
+                href="#about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
@@ -75,8 +74,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
               className="nav-link skills"
-                as={Link}
-                to="/skills"
+               href="#skills"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineBars style={{ marginBottom: "2px" }} /> Skills
