@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a3da2bd.css",
-    "main.js": "/static/js/main.0043795a.js",
-    "static/js/496.8da3cd6f.chunk.js": "/static/js/496.8da3cd6f.chunk.js",
+    "main.css": "/static/css/main.70339d04.css",
+    "main.js": "/static/js/main.d2755ce5.js",
+    "static/js/496.982cc2b7.chunk.js": "/static/js/496.982cc2b7.chunk.js",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/MongoDB_logo_PNG2.png": "/static/media/MongoDB_logo_PNG2.0421350a9b239b7ef68d.png",
-    "static/media/firebase.png": "/static/media/firebase.18e8cd693c55dbadc622.png",
+    "static/media/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.png": "/static/media/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.5705156015285594911079.18e8cd693c55dbadc622.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/nodejs.png": "/static/media/nodejs.e71346fe0fec16ec5f6e.png",
-    "static/media/reactjs.png": "/static/media/reactjs.e71f4c5b0c4306d65355.png",
-    "static/media/expressjs.png": "/static/media/expressjs.d61ef3d53f792ced8df2.png",
+    "static/media/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.png": "/static/media/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.e71346fe0fec16ec5f6e.png",
+    "static/media/1174949_js_react js_logo_react_react native_icon.png": "/static/media/1174949_js_react js_logo_react_react native_icon.e71f4c5b0c4306d65355.png",
+    "static/media/pngfind.com-pc-master-race-png-1363736.png": "/static/media/pngfind.com-pc-master-race-png-1363736.d61ef3d53f792ced8df2.png",
     "static/media/png": "/static/media/5848309bcef1014c0b5e4a9a.b3b939c66aecf7d53967.png",
     "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/PngItem_1985012.png": "/static/media/PngItem_1985012.409b3a09bb70c51542f8.png",
     "index.html": "/index.html",
-    "main.3a3da2bd.css.map": "/static/css/main.3a3da2bd.css.map",
-    "main.0043795a.js.map": "/static/js/main.0043795a.js.map",
-    "496.8da3cd6f.chunk.js.map": "/static/js/496.8da3cd6f.chunk.js.map"
+    "main.70339d04.css.map": "/static/css/main.70339d04.css.map",
+    "main.d2755ce5.js.map": "/static/js/main.d2755ce5.js.map",
+    "496.982cc2b7.chunk.js.map": "/static/js/496.982cc2b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a3da2bd.css",
-    "static/js/main.0043795a.js"
+    "static/css/main.70339d04.css",
+    "static/js/main.d2755ce5.js"
   ]
 }
