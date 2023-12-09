@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e27422d.css",
-    "main.js": "/static/js/main.e25d335d.js",
+    "main.css": "/static/css/main.23ae8381.css",
+    "main.js": "/static/js/main.306d70f7.js",
     "static/js/496.982cc2b7.chunk.js": "/static/js/496.982cc2b7.chunk.js",
     "static/media/Alcazar.png": "/static/media/Alcazar.c7e765d872ff04d2d9ee.png",
     "static/media/bed bath and beyond.png": "/static/media/bed bath and beyond.5af64a72f5e0e96797f4.png",
@@ -9,6 +9,7 @@
     "static/media/Taxtim.png": "/static/media/Taxtim.92183e042a84a26a8930.png",
     "static/media/slack.png": "/static/media/slack.dd7e6b54aec7ebcb88d4.png",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/Yuvraj-Jangir-Resume.pdf": "/static/media/Yuvraj-Jangir-Resume.0a5bf4b7cfce6c994810.pdf",
     "static/media/MongoDB_logo_PNG2.png": "/static/media/MongoDB_logo_PNG2.0421350a9b239b7ef68d.png",
     "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.02e16df6861464872846.png",
     "static/media/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.png": "/static/media/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.5705156015285594911079.18e8cd693c55dbadc622.png",
@@ -24,12 +25,12 @@
     "static/media/code-sandbox-seeklogo.com.svg": "/static/media/code-sandbox-seeklogo.com.6c30dfa29507a513e5a7310f5d7fd81f.svg",
     "static/media/replit-icon-seeklogo.com.svg": "/static/media/replit-icon-seeklogo.com.c822c021c423db028076e14299dcf839.svg",
     "index.html": "/index.html",
-    "main.1e27422d.css.map": "/static/css/main.1e27422d.css.map",
-    "main.e25d335d.js.map": "/static/js/main.e25d335d.js.map",
+    "main.23ae8381.css.map": "/static/css/main.23ae8381.css.map",
+    "main.306d70f7.js.map": "/static/js/main.306d70f7.js.map",
     "496.982cc2b7.chunk.js.map": "/static/js/496.982cc2b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e27422d.css",
-    "static/js/main.e25d335d.js"
+    "static/css/main.23ae8381.css",
+    "static/js/main.306d70f7.js"
   ]
 }
