@@ -13,9 +13,9 @@ function Contact() {
 return(
     <div id="contact">
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
+            <h1> Feel Free To<span className="purple"> Connect</span></h1>
+            <p style={{fontSize:"20px"}}>
+              Find Me<span className="purple"> On :</span>
             </p>
         <div id="contact-phone">
             <span className="purple">
