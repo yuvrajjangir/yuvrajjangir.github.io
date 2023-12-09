@@ -1,17 +1,18 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Images/home-main.svg";
 // import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
-import Particle from "../Particle";
+import resume from "../../Images/Yuvraj-Jangir-Resume.pdf"
 
 
 function Home() {
+  const handleresume = () => {
+    window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
+  }
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle/>
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -29,6 +30,7 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+                <Button id="resume-button-2" onClick={handleresume} >RESUME</Button>
               </div>
             </Col>
 

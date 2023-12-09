@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Images/cooltext448671162459522.png";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
@@ -14,12 +13,17 @@ import {
   AiOutlineUser,
   AiOutlineBars
 } from "react-icons/ai";
+import resume from "../Images/Yuvraj-Jangir-Resume.pdf"
 
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+
+  const handleresume = () => {
+    window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
+  }
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -84,13 +88,12 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
               className="nav-link projects"
-                as={Link}
-                to="/project"
+                href="#projects"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
-                />{" "}
+                />
                 Projects
               </Nav.Link>
             </Nav.Item>
@@ -98,8 +101,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
               className="nav-link contact"
-                as={Link}
-                to="/contact"
+                href="#contact"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
@@ -109,17 +111,19 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
               className="nav-link resume"
-                as={Link}
-                to="/resume"
-                rel="noreferrer"
+              href={resume}
+              download="Yuvraj-Jangir-Resume.pdf"
+              rel="noreferrer"
+              onClick={handleresume}
+              id="resume-button-1"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Resume
+                <ImBlog style={{ marginBottom: "2px" }}/> Resume
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href=""
+                href="https://github.com/yuvrajjangir/yuvrajjangir.github.io"
                 target="_blank"
                 className="fork-btn-inner"
               >

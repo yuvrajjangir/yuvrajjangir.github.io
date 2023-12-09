@@ -74,7 +74,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  /* background-image: url(./Assets/pre.svg); */
+  background-image: url(./Images/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -335,6 +335,9 @@ button:focus {
   font-size: 2.4em !important;
   color: #b562d6 !important;
 }
+.img-fluid{
+  border-radius: 2px;
+}
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
@@ -349,7 +352,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 1.5em !important;
 }
 
 @media (max-width: 767px) {
@@ -367,9 +370,18 @@ button:focus {
   justify-items: center; /* Align items horizontally */
   align-items: center; /* Align items vertically */
 }
+.tools{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+  grid-gap: 60px; /* Adjust gap between cards */
+  justify-items: center; /* Align items horizontally */
+  align-items: center; /* Align items vertically */
+}
 .allskills{
-     background-color:#1a1030;
-     padding-top: 30px;
+  background-color: 
+  #241b32 ;
+     padding-top: 3rem;
      padding-bottom: 50px;
 }
 .skill-name{
@@ -377,20 +389,23 @@ button:focus {
   padding: 10px;
   margin-top: 1.5rem;
 }
-
-
-
-.about-section{
+#contact{
   background-color: 
-#0e0919;
+  #130d21;
+}
+
+#about{
+  background-color: 
+  #130d21;
   position: relative;
+  padding:30px;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 5rem !important;
 }
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
+  padding-top: 50px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -457,6 +472,7 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  padding: 10px;
 }
 
 .icon-colour {
@@ -467,7 +483,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(4, 1, 11);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -511,11 +527,18 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  padding-top: 4.5rem !important;
+  padding-bottom: 20px !important;
+  background-color: 
+  #130d21;
 }
-
+.project-description{
+  padding: 3px;
+}
+#resume-button-2{
+  margin-top: 10px;
+  cursor: pointer;
+}
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -523,7 +546,22 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
-
+.project-title{
+  font-size: 20px;
+  color: var(--imp-text-color) !important;
+}
+.techstacks{
+  font-size: 18px;
+}
+#project-imgs img{ 
+  padding: 10px;
+width: 14%;
+}
+#github{
+  margin: 10px;
+  margin-right: 10px;
+  padding: 6px;
+}
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
@@ -627,25 +665,86 @@ button:focus {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
-
+#github-streak-stats{
+  padding-top:20px;
+  padding-bottom: 40px;
+  width: 60%;
+  cursor: pointer;
+}
+#github-top-langs{
+  padding-top:20px;
+  width: 60%;
+  cursor: pointer;
+}
+#github-stats-card{
+  padding-top:20px;
+  width: 60%;
+  cursor: pointer;
+}
+.react-activity-calendar{
+margin-top:-15rem;
+padding:50px;
+justify-content: center;
+/* padding-right: 20px; */
+}
 @media (max-width: 767px) {
   .skills-card {
     margin: 10px !important;
   }
   .skills-container {
     display: grid;
-    padding: 20px;
+    padding: 30px;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
     grid-gap: 20px; /* Adjust gap between cards */
     justify-items: center; /* Align items horizontally */
     align-items: center; /* Align items vertically */
   }
-  
+  .tools{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+    grid-gap: 20px; /* Adjust gap between cards */
+    justify-items: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
   .skills-card {
     text-align: center;
   }
+  #resume-button-2{
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  #github-streak-stats{
+    padding-top:20px;
+    /* padding-bottom: 30px; */
+    width: 100%;
+    cursor: pointer;
+  }
+  #github-top-langs{
+    padding-top:20px;
+    /* padding-bottom: 30px; */
+    width: 100%;
+    cursor: pointer;
+  }
+  #github-stats-card{
+    padding-top:20px;
+    /* padding-bottom: 30px; */
+    width: 100%;
+    cursor: pointer;
+  }
+  #langs{
+  font-size: 30px;
+  }
+
+/* ABOUT*/
+
+
+  /* PROJECTS */
   
 }
+
+
+
 
 .skills-card:hover {
   transform: scale(1.05) !important;
