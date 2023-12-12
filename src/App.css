@@ -284,13 +284,7 @@ button:focus {
     transform: rotate(0deg);
   }
 }
-#tsparticles {
-  position: fixed !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  width: 100%;
-  height: 100%;
-}
+
 
 .home-header {
   padding-top: 80px !important;
@@ -298,7 +292,8 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
+  
   background-image: var(--image-gradient), url(./Images/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -337,6 +332,7 @@ button:focus {
 }
 .img-fluid{
   border-radius: 2px;
+  /* height: 150%; */
 }
 
 @media (max-width: 767px) {
@@ -380,7 +376,7 @@ button:focus {
 }
 .allskills{
   background-color: 
-  #241b32 ;
+  #130d21;
      padding-top: 3rem;
      padding-bottom: 50px;
 }
@@ -391,7 +387,7 @@ button:focus {
 }
 #contact{
   background-color: 
-  #241b32 ;
+  #130d21;
 }
 
 #about{
@@ -421,6 +417,10 @@ button:focus {
   padding-top: 25px;
   color: white !important;
 }
+.home-about-social h1{
+  font-size: 40px;
+  margin-top: 10px;
+}
 
 .home-about-social-links {
   justify-content: center !important;
@@ -430,6 +430,10 @@ button:focus {
   padding-inline-start: 0 !important;
 }
 
+#contact-phone{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
@@ -484,16 +488,17 @@ button:focus {
 /* --------- */
 .footer {
   background-color: rgb(4, 1, 11);
-  bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  /* bottom: 20px !important; */
+  /* padding-top: -9px !important; */
+  padding-bottom: -7px !important ;
 }
 .footer-copywright {
+  /* margin-top: 5px; */
   text-align: center !important;
 }
 
 .footer-body {
-  z-index: 1;
+  /* z-index: 1; */
   text-align: center !important;
 }
 
@@ -510,12 +515,12 @@ button:focus {
 .footer h3 {
   font-size: 1em;
   color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  margin-top: 1.5em !important;
+  /* margin-bottom: 0.5em !important; */
 }
 .footer-icons {
   margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
+  /* margin-bottom: 1.5em !important; */
   padding: 0 !important;
 }
 
@@ -527,7 +532,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 4.5rem !important;
+  padding-top: 5rem !important;
   padding-bottom: 20px !important;
   background-color: 
   #130d21;
@@ -536,8 +541,18 @@ button:focus {
   padding: 3px;
 }
 #resume-button-2{
-  margin-top: 10px;
-  cursor: pointer;
+  font-size: 15px;
+  margin-left: -48rem;
+  /* margin-top: -px; */
+  /* margin-top: 38px; */
+  
+}
+#resume-button-3{
+  font-size: 15px;
+  margin-left: 10px;
+  /* margin-top: -px; */
+  /* margin-top: 38px; */
+  
 }
 .project-card {
   padding-top: 50px !important;
@@ -668,17 +683,17 @@ width: 14%;
 #github-streak-stats{
   padding-top:20px;
   padding-bottom: 40px;
-  width: 60%;
+  width: 50%;
   cursor: pointer;
 }
 #github-top-langs{
   padding-top:20px;
-  width: 60%;
+  width: 50%;
   cursor: pointer;
 }
 #github-stats-card{
   padding-top:20px;
-  width: 60%;
+  width: 50%;
   cursor: pointer;
 }
 .react-activity-calendar{
@@ -710,32 +725,39 @@ justify-content: center;
   .skills-card {
     text-align: center;
   }
-  #resume-button-2{
-    cursor: pointer;
-    margin-top: 50px;
-  }
   #github-streak-stats{
     padding-top:20px;
     /* padding-bottom: 30px; */
-    width: 100%;
+    width: 90%;
     cursor: pointer;
   }
   #github-top-langs{
     padding-top:20px;
     /* padding-bottom: 30px; */
-    width: 100%;
+    width: 90%;
     cursor: pointer;
   }
   #github-stats-card{
     padding-top:20px;
     /* padding-bottom: 30px; */
-    width: 100%;
+    width: 90%;
     cursor: pointer;
   }
   #langs{
   font-size: 30px;
   }
 
+  /* HOME */
+  #resume-button-2{
+    font-size: 15px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #home {
+
+    padding-bottom: 6px !important;
+    padding-top: 30px !important;
+  }
 /* ABOUT*/
 
 

@@ -3,13 +3,16 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Images/home-main.svg";
 // import Particle from "../Particle";
 import Type from "./Type";
-import resume from "../../Images/Yuvraj-Jangir-Resume.pdf"
-
+import resu from "../../Images/Yuvraj-Jangir-Resume.pdf"
+import { CgFileDocument } from "react-icons/cg";
+import home from "../../Images/home-bg.jpg"
 
 function Home() {
+
   const handleresume = () => {
     window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
   }
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -30,10 +33,8 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                <Button id="resume-button-2" onClick={handleresume} >RESUME</Button>
               </div>
             </Col>
-
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}

@@ -8,6 +8,7 @@ import Preloader from "./Components/Pre";
 import { useEffect, useState } from 'react';
 import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
+import Footer from './Components/Footer';
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -30,7 +31,7 @@ function App() {
         <Skills/>
         <Projects/>
         <Contact/>
-        {/* <Footer /> */}
+        <Footer />
       </div>
   {/* //  </Router> */}
   </div>
