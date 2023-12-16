@@ -6,7 +6,8 @@ import resu from "../../Images/Yuvraj-Jangir-Resume.pdf"
 import { CgFileDocument, CgPhone } from "react-icons/cg";
 
 function About() {
-  const handleresume = () => {
+
+  const handleres = () => {
     window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
   }
   return (
@@ -48,7 +49,11 @@ function About() {
                 <b className="purple"> React.js</b>
               </i>
             </p>
-            <a href={resu} download="Yuvraj-Jangir-Resume"  target="_blank" rel="noreferrer"  onClick={handleresume} >
+            <a 
+            href={resu} 
+            download="Yuvraj-Jangir-Resume"  
+            rel="noreferrer"  
+            onClick={handleres}>
                 <Button id="resume-button-2"><CgFileDocument style={{marginTop:"-4px",marginRight:"1px"}}/>Resume</Button>
                 </a>
                 <a href="#contact">

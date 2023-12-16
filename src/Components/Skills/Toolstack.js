@@ -1,7 +1,7 @@
 import React from "react";
 import repl from "../../Images/replit-icon-seeklogo.com.svg"
 import codesand from "../../Images/code-sandbox-seeklogo.com.svg"
-import git from "../../Images/pngwing.com.png"
+import git from "../../Images/Untitled design.png"
 import vs from "../../Images/visual-studio-code-icon.png"
 import netl from "../../Images/netlify-icon-seeklogo.com.svg"
 import slack from "../../Images/slack.png"

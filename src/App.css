@@ -398,6 +398,18 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 5rem !important;
 }
+/* CSS */
+/* .about-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-section.slide-in {
+  opacity: 1;
+  transform: translateY(0);
+} */
+
 
 .home-about-description {
   color: white !important;
@@ -542,7 +554,7 @@ button:focus {
 }
 #resume-button-2{
   font-size: 15px;
-  margin-left: -48rem;
+  margin-left: -40rem;
   /* margin-top: -px; */
   /* margin-top: 38px; */
   
@@ -701,6 +713,14 @@ margin-top:-15rem;
 padding:50px;
 justify-content: center;
 /* padding-right: 20px; */
+}
+@media (max-width: 768px) {
+  /* Your tablet styles here */
+  #resume-button-2{
+    font-size: 15px;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 @media (max-width: 767px) {
   .skills-card {
