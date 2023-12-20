@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e962a7ab.css",
-    "main.js": "/static/js/main.0a21a76a.js",
+    "main.js": "/static/js/main.a5ea1f4c.js",
     "static/js/496.982cc2b7.chunk.js": "/static/js/496.982cc2b7.chunk.js",
     "static/media/Alcazar.png": "/static/media/Alcazar.c7e765d872ff04d2d9ee.png",
     "static/media/bed bath and beyond.png": "/static/media/bed bath and beyond.5af64a72f5e0e96797f4.png",
@@ -17,21 +17,21 @@
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.png": "/static/media/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.e71346fe0fec16ec5f6e.png",
     "static/media/1174949_js_react js_logo_react_react native_icon.png": "/static/media/1174949_js_react js_logo_react_react native_icon.e71f4c5b0c4306d65355.png",
+    "static/media/Untitled design-fotor-2023122019559.png": "/static/media/Untitled design-fotor-2023122019559.69e7788f91a7f7217f20.png",
     "static/media/pngfind.com-pc-master-race-png-1363736.png": "/static/media/pngfind.com-pc-master-race-png-1363736.d61ef3d53f792ced8df2.png",
-    "static/media/Untitled design.png": "/static/media/Untitled design.acda1ed8e1b0fdc8e66d.png",
     "static/media/png": "/static/media/5848309bcef1014c0b5e4a9a.b3b939c66aecf7d53967.png",
     "static/media/PngItem_1985012.png": "/static/media/PngItem_1985012.409b3a09bb70c51542f8.png",
+    "static/media/Codesandbox-fotor-2023122020022.png": "/static/media/Codesandbox-fotor-2023122020022.1438cfa860f4a8653447.png",
     "static/media/netlify-icon-seeklogo.com.svg": "/static/media/netlify-icon-seeklogo.com.776cd25042456425e3bbfdd0cba9435a.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
-    "static/media/code-sandbox-seeklogo.com.svg": "/static/media/code-sandbox-seeklogo.com.6c30dfa29507a513e5a7310f5d7fd81f.svg",
     "static/media/replit-icon-seeklogo.com.svg": "/static/media/replit-icon-seeklogo.com.c822c021c423db028076e14299dcf839.svg",
     "index.html": "/index.html",
     "main.e962a7ab.css.map": "/static/css/main.e962a7ab.css.map",
-    "main.0a21a76a.js.map": "/static/js/main.0a21a76a.js.map",
+    "main.a5ea1f4c.js.map": "/static/js/main.a5ea1f4c.js.map",
     "496.982cc2b7.chunk.js.map": "/static/js/496.982cc2b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e962a7ab.css",
-    "static/js/main.0a21a76a.js"
+    "static/js/main.a5ea1f4c.js"
   ]
 }
