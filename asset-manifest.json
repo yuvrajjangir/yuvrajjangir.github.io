@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ae4662ce.css",
-    "main.js": "/static/js/main.2e16d248.js",
+    "main.js": "/static/js/main.f63923e6.js",
     "static/js/496.cf46caa1.chunk.js": "/static/js/496.cf46caa1.chunk.js",
     "static/media/Alcazar.png": "/static/media/Alcazar.c7e765d872ff04d2d9ee.png",
     "static/media/bed bath and beyond.png": "/static/media/bed bath and beyond.5af64a72f5e0e96797f4.png",
+    "static/media/Yuvraj-Jangir-Resume.pdf": "/static/media/Yuvraj-Jangir-Resume.82c7df193674f353a93b.pdf",
     "static/media/Profile-Picture-Yuvraj-Jangir.jpg": "/static/media/Profile-Picture-Yuvraj-Jangir.407e138b810da12aa337.jpg",
     "static/media/Pharmeasy.png": "/static/media/Pharmeasy.90b3054879c9a59341fd.png",
     "static/media/Taxtim.png": "/static/media/Taxtim.92183e042a84a26a8930.png",
     "static/media/slack.png": "/static/media/slack.dd7e6b54aec7ebcb88d4.png",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
-    "static/media/Yuvraj-Jangir-Resume.pdf": "/static/media/Yuvraj-Jangir-Resume.0a5bf4b7cfce6c994810.pdf",
     "static/media/MongoDB_logo_PNG2.png": "/static/media/MongoDB_logo_PNG2.0421350a9b239b7ef68d.png",
     "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.02e16df6861464872846.png",
     "static/media/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.png": "/static/media/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.5705156015285594911079.18e8cd693c55dbadc622.png",
@@ -27,11 +27,11 @@
     "static/media/replit-icon-seeklogo.com.svg": "/static/media/replit-icon-seeklogo.com.c822c021c423db028076e14299dcf839.svg",
     "index.html": "/index.html",
     "main.ae4662ce.css.map": "/static/css/main.ae4662ce.css.map",
-    "main.2e16d248.js.map": "/static/js/main.2e16d248.js.map",
+    "main.f63923e6.js.map": "/static/js/main.f63923e6.js.map",
     "496.cf46caa1.chunk.js.map": "/static/js/496.cf46caa1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae4662ce.css",
-    "static/js/main.2e16d248.js"
+    "static/js/main.f63923e6.js"
   ]
 }
