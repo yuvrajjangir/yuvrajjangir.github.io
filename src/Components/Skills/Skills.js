@@ -26,7 +26,7 @@ function Skills() {
         </div>
         <div className="skills-container">
         <div className="skills-card">
-        <img style={{ width: "70%" }} src={html} className="skills-card-img" alt="skill" />
+        <img style={{ width: "70%" }} src={html} className="skills-card-img" alt="skill"/>
         <p className="skills-card-name" style={{ fontSize: "20px" }}>HTML</p>
       </div>
       <div className="skills-card">

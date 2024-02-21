@@ -287,18 +287,18 @@ button:focus {
 
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 0px !important;
 }
 
 .home-section {
   position: relative;
-  /* z-index: -1; */
+  z-index: -1;
   
   background-image: var(--image-gradient), url(./Images/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  padding-top: 20px !important;
 }
 
 .home-content {
@@ -486,9 +486,11 @@ button:focus {
 
 .social-icons {
   display: inline-block !important;
-  padding-right: 15px;
+  padding-right: 13px;
   padding-left: 15px;
   padding: 10px;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
 }
 
 .icon-colour {
@@ -554,17 +556,29 @@ button:focus {
 }
 #resume-button-2{
   font-size: 15px;
-  margin-left: -40rem;
+  margin-left: 30rem;
+  margin-top: 2rem;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
   /* margin-top: -px; */
   /* margin-top: 38px; */
-  
 }
 #resume-button-3{
   font-size: 15px;
   margin-left: 10px;
+  margin-top: 2rem;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
   /* margin-top: -px; */
   /* margin-top: 38px; */
-  
+}
+#resume-button-3:hover{
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+}
+#resume-button-2:hover{
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
 }
 .project-card {
   padding-top: 50px !important;
@@ -691,6 +705,7 @@ width: 14%;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  cursor: pointer;
 }
 #github-streak-stats{
   padding-top:20px;
@@ -714,14 +729,7 @@ padding:50px;
 justify-content: center;
 /* padding-right: 20px; */
 }
-@media (max-width: 768px) {
-  /* Your tablet styles here */
-  #resume-button-2{
-    font-size: 15px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
+
 @media (max-width: 767px) {
   .skills-card {
     margin: 10px !important;
@@ -797,7 +805,10 @@ justify-content: center;
   padding: 20px !important;
   line-height: 1.6 !important;
 }
-
+.social-icons:hover{
+  transform: scale(1.20) !important;
+  overflow: hidden !important;
+}
 .quote-card-view {
   border: none !important;
   color: white !important;
@@ -957,4 +968,77 @@ justify-content: center;
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+
+/* INPUT BACKEND */
+
+/* CSS for Contact Form */
+/* CSS for Contact Form */
+
+/* CSS for Form Controls */
+.form-control {
+  
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-control label {
+  font-weight: bold;
+  color: #8a49a8;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control .react-phone-number-input__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: #422052;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-control .react-phone-number-input__country-select,
+.form-control .react-phone-number-input__input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.form-control .react-phone-number-input__input {
+  padding-left: 45px; /* To accommodate the flag icon */
+}
+
+.form-control .react-phone-number-input__icon-flag {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.submit-button {
+  background-color: #8a49a8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px;
+  width: 30%;
+  /* height: 50% !important; */
+  margin-bottom: 1rem;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.submit-button:hover{
+  background-color:#371e43;
+}
+
+.submit-button.show {
+  opacity: 2;
 }

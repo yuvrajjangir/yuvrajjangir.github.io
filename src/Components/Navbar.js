@@ -22,7 +22,7 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   const handleresume = () => {
-    window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1Whg8z-PxZrCnbvMWCkhbrTZ4HOp_8mSy/view?usp=sharing');
   }
 
   function scrollHandler() {

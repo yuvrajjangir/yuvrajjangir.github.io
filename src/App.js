@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
 import Footer from './Components/Footer';
+import { ChakraProvider } from '@chakra-ui/react';
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -30,8 +31,8 @@ function App() {
         <About/>
         <Skills/>
         <Projects/>
-        <Contact/>
-        <Footer />
+        <Contact/>   
+      <Footer />
       </div>
   {/* //  </Router> */}
   </div>

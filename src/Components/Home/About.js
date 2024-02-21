@@ -1,6 +1,6 @@
 import React from "react";
 import {Row, Col, Button } from "react-bootstrap";
-import myImg from "../../Images/profile.jpeg";
+import myImg from "../../Images/Profile-Picture-Yuvraj-Jangir.jpg";
 import Tilt from "react-parallax-tilt";
 import resu from "../../Images/Yuvraj-Jangir-Resume.pdf"
 import { CgFileDocument, CgPhone } from "react-icons/cg";
@@ -8,7 +8,7 @@ import { CgFileDocument, CgPhone } from "react-icons/cg";
 function About() {
 
   const handleres = () => {
-    window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
+    window.open('https://drive.google.com/file/d/1Whg8z-PxZrCnbvMWCkhbrTZ4HOp_8mSy/view?usp=sharing');
   }
   return (
       <div id="about" className="about-section">
@@ -22,7 +22,7 @@ function About() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Javascript and Go. </b>
+                <b className="purple"> Java, Javascript. </b>
               </i>
               <br />
               <br />
