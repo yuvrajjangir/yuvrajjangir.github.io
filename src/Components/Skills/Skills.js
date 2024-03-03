@@ -2,6 +2,7 @@ import React from "react";
 import { Container} from "react-bootstrap";
 import Toolstack from "./Toolstack";
 import "../../App.css"
+import tailwind from "../../Images/tailwind-css.webp";
 import bootstrap from "../../Images/bootstrap-logo.png"
 import java from "../../Images/kisspng-logo-java-runtime-environment-programming-language-java-util-concurrentmodificationexception-Ömer-5b6766ab5dba25.7100170215335031473839.png"
 import firebase from "../../Images/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.5705156015285594911079.png"
@@ -72,6 +73,10 @@ function Skills() {
         <div className="skills-card">
         <img style={{width:"70%"}} src={bootstrap} className="skills-card-img" alt="skill" />
         <p className="skills-card-name" style={{fontSize:"20px"}}>Bootstrap</p>
+        </div>
+        <div className="skills-card">
+        <img style={{width:"70%"}} src={tailwind} className="skills-card-img" alt="skill" />
+        <p className="skills-card-name" style={{fontSize:"20px"}}>Tailwind</p>
         </div>
       </div>
         <h1 className="project-heading">
