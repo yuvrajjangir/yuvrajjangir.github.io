@@ -4,9 +4,9 @@ import Toolstack from "./Toolstack";
 import "../../App.css"
 import tailwind from "../../Images/tailwind-css.webp";
 import bootstrap from "../../Images/bootstrap-logo.png"
-import java from "../../Images/kisspng-logo-java-runtime-environment-programming-language-java-util-concurrentmodificationexception-Ömer-5b6766ab5dba25.7100170215335031473839.png"
-import firebase from "../../Images/kisspng-firebase-cloud-messaging-google-cloud-messaging-api-as-a-service-5b1bf7831a5909.5705156015285594911079.png"
-import nodejs from "../../Images/kisspng-node-js-javascript-web-application-express-js-comp-5ae0f84e5e7537.0464945815246930703869.png"
+import java from "../../Images/java.png"
+import firebase from "../../Images/firebase.png"
+import nodejs from "../../Images/nodejs.png"
 import javascript from "../../Images/javascript-39404.png"
 import html from "../../Images/html5-logo-31813.png"
 import react from "../../Images/1174949_js_react js_logo_react_react native_icon.png"
