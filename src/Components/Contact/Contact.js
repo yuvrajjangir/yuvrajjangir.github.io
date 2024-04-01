@@ -80,7 +80,7 @@ function Contact() {
     e.preventDefault();
     setButtonClicked(true);
     try {
-      const response = await axios.post('https://portfolio-backend-production-bb33.up.railway.app/submit-contact',contactdetail);
+      const response = await axios.post('https://portfolio-backend-0mu3.onrender.com/submit-contact',contactdetail);
       console.log(response.data);
       setContactDetail({
         name: "",
