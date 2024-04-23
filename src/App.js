@@ -18,6 +18,10 @@ function App() {
       upadateLoad(false);
     }, 1200);
 
+     // Increment view count when component mounts
+     fetch('https://portfolio-backend-0mu3.onrender.com/views', { method: 'POST' })
+     .catch(err => console.error(err));
+
     return () => clearTimeout(timer);
   }, []);
   return (
