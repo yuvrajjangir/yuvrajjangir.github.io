@@ -11,9 +11,11 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiOutlineBars
+  AiOutlineBars,
+  AiOutlineClockCircle,
+  AiOutlineSolution,
 } from "react-icons/ai";
-import resume from "../Images/Yuvraj-Jangir-Resume.pdf"
+import resume from "../Images/Yuvraj-Jangir-Resume.pdf";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -22,8 +24,10 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   const handleresume = () => {
-    window.open('https://drive.google.com/file/d/1Whg8z-PxZrCnbvMWCkhbrTZ4HOp_8mSy/view?usp=sharing');
-  }
+    window.open(
+      "https://drive.google.com/file/d/1UjlKjWiNfz5WGDaLuZ7NjsOlAliP_yi7/view?usp=sharing",
+    );
+  };
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -37,7 +41,7 @@ function NavBar() {
 
   return (
     <Navbar
-    id="nav-menu"
+      id="nav-menu"
       expanded={expand}
       fixed="top"
       expand="md"
@@ -45,7 +49,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img  src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -60,64 +64,94 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link className="nav-link home" href="#home" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+              <Nav.Link
+                className="nav-link home"
+                href="#home"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineHome
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
+                Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-              className="nav-link about"
+                className="nav-link about"
                 href="#about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
+                About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-              className="nav-link skills"
-               href="#skills"
+                className="nav-link skills"
+                href="#skills"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineBars style={{ marginBottom: "2px" }} /> Skills
+                <AiOutlineBars
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
+                Skills
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-              className="nav-link projects"
+                className="nav-link projects"
                 href="#projects"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-              className="nav-link contact"
-                href="#contact"
+                className="nav-link projects"
+                href="#experience"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+                <AiOutlineSolution
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
+                Experience
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-              className="nav-link resume"
-              href={resume}
-              download="Yuvraj-Jangir-Resume.pdf"
-              rel="noreferrer"
-              onClick={handleresume}
-              id="resume-button-1"
+                className="nav-link contact"
+                href="#contact"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }}/> Resume
+                <CgFileDocument
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
+                Contact
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                className="nav-link resume"
+                href={resume}
+                download="Yuvraj-Jangir-Resume.pdf"
+                rel="noreferrer"
+                onClick={handleresume}
+                id="resume-button-1"
+              >
+                <ImBlog style={{ marginBottom: "2px", marginRight: "3px" }} />{" "}
+                Resume
               </Nav.Link>
             </Nav.Item>
 

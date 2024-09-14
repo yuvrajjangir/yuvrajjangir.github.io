@@ -3,15 +3,16 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Images/home-main.svg";
 // import Particle from "../Particle";
 import Type from "./Type";
-import resu from "../../Images/Yuvraj-Jangir-Resume.pdf"
+import resu from "../../Images/Yuvraj-Jangir-Resume.pdf";
 import { CgFileDocument } from "react-icons/cg";
-import home from "../../Images/home-bg.jpg"
+import home from "../../Images/home-bg.jpg";
 
 function Home() {
-
   const handleresume = () => {
-    window.open('https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing');
-  }
+    window.open(
+      "https://drive.google.com/file/d/1Bp8cQJs-Tootv-BHn82U2bfVkZSk8CgJ/view?usp=sharing",
+    );
+  };
 
   return (
     <section>
@@ -27,8 +28,11 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong id="user-detail-name" className="main-name"> YUVRAJ JANGIR</strong>
+                This is
+                <strong id="user-detail-name" className="main-name">
+                  {" "}
+                  YUVRAJ JANGIR
+                </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

@@ -37,8 +37,6 @@
   }
 }
 
-
-
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -53,10 +51,20 @@ html {
   );
 
   --imp-text-color: #c770f0;
+  --imp-exp-color: #ac7ec1;
 }
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+
+.purple-exp {
+  color: var(--imp-exp-color) !important;
+}
+
+.purple-exp-date {
+  color: var(--imp-exp-color) !important;
+  font-size: 14px;
 }
 
 button:focus {
@@ -125,10 +133,11 @@ button:focus {
 
 .navbar {
   /* background-color: #0c0513; */
+  /* margin-top: 1rem !important; */
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
+  padding: 0.3rem 1rem !important;
+  font-size: 17.5px !important;
 }
 
 .navbar-toggler {
@@ -209,6 +218,7 @@ button:focus {
 
 .nav-link {
   padding: 0.8rem 1rem !important;
+  margin-right: -1.1rem;
 }
 
 @media (max-width: 767px) {
@@ -285,7 +295,6 @@ button:focus {
   }
 }
 
-
 .home-header {
   padding-top: 0px !important;
 }
@@ -293,7 +302,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  
+
   background-image: var(--image-gradient), url(./Images/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -330,7 +339,7 @@ button:focus {
   font-size: 2.4em !important;
   color: #b562d6 !important;
 }
-.img-fluid{
+.img-fluid {
   border-radius: 2px;
   /* height: 150%; */
 }
@@ -361,40 +370,43 @@ button:focus {
 .skills-container {
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  ); /* Adjust minmax width */
   grid-gap: 60px; /* Adjust gap between cards */
   justify-items: center; /* Align items horizontally */
   align-items: center; /* Align items vertically */
 }
-.tools{
+.tools {
   padding: 20px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(150px, 1fr)
+  ); /* Adjust minmax width */
   grid-gap: 60px; /* Adjust gap between cards */
   justify-items: center; /* Align items horizontally */
   align-items: center; /* Align items vertically */
 }
-.allskills{
-  background-color: 
-  #130d21;
-     padding-top: 3rem;
-     padding-bottom: 50px;
+.allskills {
+  background-color: #130d21;
+  padding-top: 3rem;
+  padding-bottom: 50px;
 }
-.skill-name{
-  justify-content:center;
+.skill-name {
+  justify-content: center;
   padding: 10px;
   margin-top: 1.5rem;
 }
-#contact{
-  background-color: 
-  #130d21;
+#contact {
+  background-color: #130d21;
 }
 
-#about{
-  background-color: 
-  #130d21;
+#about {
+  background-color: #130d21;
   position: relative;
-  padding:30px;
+  padding: 30px;
   padding-bottom: 70px !important;
   padding-top: 5rem !important;
 }
@@ -409,7 +421,6 @@ button:focus {
   opacity: 1;
   transform: translateY(0);
 } */
-
 
 .home-about-description {
   color: white !important;
@@ -429,7 +440,7 @@ button:focus {
   padding-top: 25px;
   color: white !important;
 }
-.home-about-social h1{
+.home-about-social h1 {
   font-size: 40px;
   margin-top: 10px;
 }
@@ -442,7 +453,7 @@ button:focus {
   padding-inline-start: 0 !important;
 }
 
-#contact-phone{
+#contact-phone {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -548,13 +559,15 @@ button:focus {
   position: relative !important;
   padding-top: 5rem !important;
   padding-bottom: 20px !important;
-  background-color: 
-  #130d21;
+  background-color: #130d21;
 }
-.project-description{
+.project-description {
   padding: 3px;
 }
-#resume-button-2{
+.project-description-exp {
+  padding: 15px;
+}
+#resume-button-2 {
   font-size: 15px;
   margin-left: 30rem;
   margin-top: 2rem;
@@ -563,7 +576,7 @@ button:focus {
   /* margin-top: -px; */
   /* margin-top: 38px; */
 }
-#resume-button-3{
+#resume-button-3 {
   font-size: 15px;
   margin-left: 10px;
   margin-top: 2rem;
@@ -572,11 +585,11 @@ button:focus {
   /* margin-top: -px; */
   /* margin-top: 38px; */
 }
-#resume-button-3:hover{
+#resume-button-3:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
 }
-#resume-button-2:hover{
+#resume-button-2:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
 }
@@ -587,18 +600,24 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
-.project-title{
+.project-title {
   font-size: 20px;
   color: var(--imp-text-color) !important;
 }
-.techstacks{
+.techstacks {
   font-size: 18px;
 }
-#project-imgs img{ 
+#project-imgs img {
   padding: 10px;
-width: 14%;
+  width: 14%;
 }
-#github{
+
+#project-imgs-exp img {
+  padding: 8px;
+  width: 14%;
+}
+
+#github {
   margin: 10px;
   margin-right: 10px;
   padding: 6px;
@@ -617,6 +636,15 @@ width: 14%;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
+.project-card-view-exp {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  width: 100%;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 80% !important;
+}
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -654,6 +682,13 @@ width: 14%;
   border-radius: 10px !important;
 }
 
+.card-img-top-exp {
+  width: 35%;
+  padding: 20px !important;
+  opacity: 0.8 !important;
+  border-radius: 10px !important;
+}
+
 .blog-img {
   padding: 0px !important;
   opacity: 0.8 !important;
@@ -686,8 +721,6 @@ width: 14%;
 /* About */
 /* --------- */
 
-
-
 .skills-card {
   font-size: 4.5em !important;
   width: 100%;
@@ -707,27 +740,27 @@ width: 14%;
   transition: all 0.4s ease 0s !important;
   cursor: pointer;
 }
-#github-streak-stats{
-  padding-top:20px;
+#github-streak-stats {
+  padding-top: 20px;
   padding-bottom: 40px;
   width: 50%;
   cursor: pointer;
 }
-#github-top-langs{
-  padding-top:20px;
+#github-top-langs {
+  padding-top: 20px;
   width: 50%;
   cursor: pointer;
 }
-#github-stats-card{
-  padding-top:20px;
+#github-stats-card {
+  padding-top: 20px;
   width: 50%;
   cursor: pointer;
 }
-.react-activity-calendar{
-margin-top:-15rem;
-padding:50px;
-justify-content: center;
-/* padding-right: 20px; */
+.react-activity-calendar {
+  margin-top: -15rem;
+  padding: 50px;
+  justify-content: center;
+  /* padding-right: 20px; */
 }
 
 @media (max-width: 767px) {
@@ -737,15 +770,21 @@ justify-content: center;
   .skills-container {
     display: grid;
     padding: 30px;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(150px, 1fr)
+    ); /* Adjust minmax width */
     grid-gap: 20px; /* Adjust gap between cards */
     justify-items: center; /* Align items horizontally */
     align-items: center; /* Align items vertically */
   }
-  .tools{
+  .tools {
     padding: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax width */
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(150px, 1fr)
+    ); /* Adjust minmax width */
     grid-gap: 20px; /* Adjust gap between cards */
     justify-items: center; /* Align items horizontally */
     align-items: center; /* Align items vertically */
@@ -753,48 +792,42 @@ justify-content: center;
   .skills-card {
     text-align: center;
   }
-  #github-streak-stats{
-    padding-top:20px;
+  #github-streak-stats {
+    padding-top: 20px;
     /* padding-bottom: 30px; */
     width: 90%;
     cursor: pointer;
   }
-  #github-top-langs{
-    padding-top:20px;
+  #github-top-langs {
+    padding-top: 20px;
     /* padding-bottom: 30px; */
     width: 90%;
     cursor: pointer;
   }
-  #github-stats-card{
-    padding-top:20px;
+  #github-stats-card {
+    padding-top: 20px;
     /* padding-bottom: 30px; */
     width: 90%;
     cursor: pointer;
   }
-  #langs{
-  font-size: 30px;
+  #langs {
+    font-size: 30px;
   }
 
   /* HOME */
-  #resume-button-2{
+  #resume-button-2 {
     font-size: 15px;
     margin-right: 0;
     margin-left: 0;
   }
   #home {
-
     padding-bottom: 6px !important;
     padding-top: 30px !important;
   }
-/* ABOUT*/
-
+  /* ABOUT*/
 
   /* PROJECTS */
-  
 }
-
-
-
 
 .skills-card:hover {
   transform: scale(1.05) !important;
@@ -805,8 +838,8 @@ justify-content: center;
   padding: 20px !important;
   line-height: 1.6 !important;
 }
-.social-icons:hover{
-  transform: scale(1.20) !important;
+.social-icons:hover {
+  transform: scale(1.2) !important;
   overflow: hidden !important;
 }
 .quote-card-view {
@@ -951,6 +984,7 @@ justify-content: center;
 .fork-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
+  margin-right: -3.5rem;
 }
 
 .fork-btn-inner {
@@ -970,7 +1004,6 @@ justify-content: center;
   display: none !important;
 }
 
-
 /* INPUT BACKEND */
 
 /* CSS for Contact Form */
@@ -978,9 +1011,15 @@ justify-content: center;
 
 /* CSS for Form Controls */
 .form-control {
-  
-  width: 100%;
+  width: 140%;
   margin-bottom: 15px;
+}
+
+.contact-form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  /* box-shadow: rgba(255, 255, 255, 0.937) 0px 3px 8px;x */
+  padding: 20px;
 }
 
 .form-control label {
@@ -996,7 +1035,8 @@ justify-content: center;
   border: 1px solid #ccc;
   color: #422052;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border-radius: 5px;
   font-size: 16px;
 }
@@ -1029,14 +1069,15 @@ justify-content: center;
   font-size: 17px;
   font-weight: 500;
   padding: 8px;
-  width: 30%;
+  width: 10%;
   /* height: 50% !important; */
+  margin-top: 10px;
   margin-bottom: 1rem;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
 }
-.submit-button:hover{
-  background-color:#371e43;
+.submit-button:hover {
+  background-color: #371e43;
 }
 
 .submit-button.show {
