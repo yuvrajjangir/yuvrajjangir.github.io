@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.19ae4f87.css",
-    "main.js": "/static/js/main.5c94276b.js",
+    "main.css": "/static/css/main.d70e2c10.css",
+    "main.js": "/static/js/main.0bc48608.js",
     "static/js/496.cf46caa1.chunk.js": "/static/js/496.cf46caa1.chunk.js",
     "static/media/Alcazar.png": "/static/media/Alcazar.c7e765d872ff04d2d9ee.png",
     "static/media/valorant.png": "/static/media/valorant.222d87dafbb62b2c481b.png",
@@ -45,12 +45,12 @@
     "static/media/jira.svg": "/static/media/jira.1b79d9d02350c124716652a3e72b8376.svg",
     "static/media/replit-icon-seeklogo.com.svg": "/static/media/replit-icon-seeklogo.com.1c8e005b1297aaa49da32098ebc1f379.svg",
     "index.html": "/index.html",
-    "main.19ae4f87.css.map": "/static/css/main.19ae4f87.css.map",
-    "main.5c94276b.js.map": "/static/js/main.5c94276b.js.map",
+    "main.d70e2c10.css.map": "/static/css/main.d70e2c10.css.map",
+    "main.0bc48608.js.map": "/static/js/main.0bc48608.js.map",
     "496.cf46caa1.chunk.js.map": "/static/js/496.cf46caa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19ae4f87.css",
-    "static/js/main.5c94276b.js"
+    "static/css/main.d70e2c10.css",
+    "static/js/main.0bc48608.js"
   ]
 }
