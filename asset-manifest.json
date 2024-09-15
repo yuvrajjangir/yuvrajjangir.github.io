@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c4395d65.css",
-    "main.js": "/static/js/main.e853f1db.js",
+    "main.js": "/static/js/main.cc7ee38f.js",
     "static/js/496.cf46caa1.chunk.js": "/static/js/496.cf46caa1.chunk.js",
     "static/media/Alcazar.png": "/static/media/Alcazar.c7e765d872ff04d2d9ee.png",
     "static/media/valorant.png": "/static/media/valorant.222d87dafbb62b2c481b.png",
@@ -60,11 +60,11 @@
     "static/media/replit-icon-seeklogo.com.svg": "/static/media/replit-icon-seeklogo.com.1c8e005b1297aaa49da32098ebc1f379.svg",
     "index.html": "/index.html",
     "main.c4395d65.css.map": "/static/css/main.c4395d65.css.map",
-    "main.e853f1db.js.map": "/static/js/main.e853f1db.js.map",
+    "main.cc7ee38f.js.map": "/static/js/main.cc7ee38f.js.map",
     "496.cf46caa1.chunk.js.map": "/static/js/496.cf46caa1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c4395d65.css",
-    "static/js/main.e853f1db.js"
+    "static/js/main.cc7ee38f.js"
   ]
 }
