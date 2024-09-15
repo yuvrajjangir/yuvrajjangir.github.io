@@ -27,6 +27,13 @@ import jenkins from "../../Images/jenkins.png";
 import aws from "../../Images/aws.png";
 import Gcp from "../../Images/Gcp.png";
 import sqs from "../../Images/sqs.png";
+import restapi from "../../Images/restapi.jpeg";
+import wordpress from "../../Images/wordpress.png";
+import python from "../../Images/python.webp";
+import microservices from "../../Images/microservices.png";
+import awslambda from "../../Images/awslambda.svg";
+import mysql from "../../Images/mysqllogo.webp";
+import docker from "../../Images/docker.webp";
 
 function Skills() {
   return (
@@ -129,6 +136,17 @@ function Skills() {
           <div className="skills-card">
             <img
               style={{ width: "70%" }}
+              src={awslambda}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              AWS Lambda
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
               src={express}
               className="skills-card-img"
               alt="skill"
@@ -146,6 +164,17 @@ function Skills() {
             />
             <p className="skills-card-name" style={{ fontSize: "20px" }}>
               Redux
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
+              src={microservices}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              MicroServices
             </p>
           </div>
           <div className="skills-card">
@@ -190,6 +219,39 @@ function Skills() {
             />
             <p className="skills-card-name" style={{ fontSize: "20px" }}>
               GCP
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
+              src={restapi}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              RESTful APIs
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
+              src={wordpress}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              WordPress
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
+              src={python}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              Python
             </p>
           </div>
           <div className="skills-card">
@@ -311,6 +373,28 @@ function Skills() {
             />
             <p className="skills-card-name" style={{ fontSize: "20px" }}>
               AWS SQS
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
+              src={mysql}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              MySQL
+            </p>
+          </div>
+          <div className="skills-card">
+            <img
+              style={{ width: "70%" }}
+              src={docker}
+              className="skills-card-img"
+              alt="skill"
+            />
+            <p className="skills-card-name" style={{ fontSize: "20px" }}>
+              Docker
             </p>
           </div>
         </div>

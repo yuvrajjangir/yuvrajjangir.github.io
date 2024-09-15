@@ -7,6 +7,14 @@ import netl from "../../Images/netlify-icon-seeklogo.com.svg";
 import slack from "../../Images/slack.png";
 import jira from "../../Images/jira.svg";
 import confluence from "../../Images/confluence.avif";
+import lens from "../../Images/lens.svg";
+import tableplus from "../../Images/tableplus.png";
+import googleconsole from "../../Images/googleconsole.png";
+import mongodbcompass from "../../Images/mongodbcompass.webp";
+import redisinsight from "../../Images/redisinsight.png";
+import mysqlworkbench from "../../Images/mysql.webp";
+import postman from "../../Images/postman.svg";
+import dbeaver from "../../Images/dbeaver.png";
 
 function Toolstack() {
   return (
@@ -45,6 +53,28 @@ function Toolstack() {
         />
         <p className="skills-card-name" style={{ fontSize: "20px" }}>
           Github
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={lens}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          Lens
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={tableplus}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          TablePlus
         </p>
       </div>
       <div className="skills-card">
@@ -100,6 +130,72 @@ function Toolstack() {
         />
         <p className="skills-card-name" style={{ fontSize: "20px" }}>
           Confluence
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={googleconsole}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          GoogleConsole
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={mongodbcompass}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          Compass
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={redisinsight}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          RedisInsight
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={mysqlworkbench}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          WorkBench
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={postman}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          Postman
+        </p>
+      </div>
+      <div className="skills-card">
+        <img
+          style={{ width: "80%" }}
+          src={dbeaver}
+          className="skills-card-img"
+          alt="skill"
+        />
+        <p className="skills-card-name" style={{ fontSize: "20px" }}>
+          DBeaver
         </p>
       </div>
     </div>

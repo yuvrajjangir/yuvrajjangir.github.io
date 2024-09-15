@@ -258,7 +258,7 @@ function Contact() {
             isInvalid={errors.message}
             style={{ background: "white", border: "none" }}
           >
-            <FormLabel htmlFor="message">Enter your message here</FormLabel>
+            <FormLabel htmlFor="message">Enter Your Message Here</FormLabel>
             <Input
               placeholder="Enter Your Message"
               name="message"

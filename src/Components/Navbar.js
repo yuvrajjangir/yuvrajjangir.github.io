@@ -62,7 +62,7 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="ms-auto nav-item-set" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link
                 className="nav-link home"
