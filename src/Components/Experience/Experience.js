@@ -65,7 +65,7 @@ function Experience() {
                 coaching.
               </p>
               <Button
-                href="https://www.xfinite.io/"
+                href="https://www.masaischool.com/"
                 className="project-github-link"
                 id="github"
                 target="_blank"
@@ -120,7 +120,7 @@ function Experience() {
                 <img src={confluence} alt="tech"></img>
               </div>
               <Button
-                href="https://www.masaischool.com/"
+                href="https://www.xfinite.io/"
                 className="project-github-link"
                 id="github"
                 target="_blank"
