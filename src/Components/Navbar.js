@@ -105,19 +105,6 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 className="nav-link projects"
-                href="#projects"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px", marginRight: "3px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                className="nav-link projects"
                 href="#experience"
                 onClick={() => updateExpanded(false)}
               >
@@ -125,6 +112,19 @@ function NavBar() {
                   style={{ marginBottom: "2px", marginRight: "3px" }}
                 />{" "}
                 Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                className="nav-link projects"
+                href="#projects"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px", marginRight: "3px" }}
+                />{" "}
+                Projects
               </Nav.Link>
             </Nav.Item>
 
