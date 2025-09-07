@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Images/home-main.svg";
 // import Particle from "../Particle";
 import Type from "./Type";
-import resu from "../../Images/Yuvraj-Jangir-Resume.pdf";
+import resu from "../../Images/Yuvraj _Jangir_Job_Profile.pdf";
 import { CgFileDocument } from "react-icons/cg";
 import home from "../../Images/home-bg.jpg";
 

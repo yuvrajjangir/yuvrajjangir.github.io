@@ -67,6 +67,11 @@ html {
   font-size: 14px;
 }
 
+.purple-exp-year {
+  color: var(--imp-exp-color) !important;
+  font-size: 12px;
+}
+
 button:focus {
   box-shadow: none !important;
 }

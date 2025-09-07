@@ -15,6 +15,7 @@ import { CgWebsite } from "react-icons/cg";
 import confluence from "../../Images/confluence.avif";
 import masai from "../../Images/masai.png";
 import pubsub from "../../Images/pub-sub.svg";
+import notion from "../../Images/notion.png";
 import redis from "../../Images/redis.svg";
 import meta from "../../Images/meta.webp";
 import postgresql from "../../Images/postgresql.png";
@@ -27,6 +28,11 @@ import jenkins from "../../Images/jenkins.png";
 import aws from "../../Images/aws.png";
 import Gcp from "../../Images/Gcp.png";
 import xfinite from "../../Images/xfinite.jpeg";
+import alpha from "../../Images/alphaframe.jpg"
+import llm from "../../Images/llm.jpg"
+import meet from "../../Images/meet.png"
+import git from "../../Images/git.png"
+import slack from "../../Images/slack.png"
 function Experience() {
   return (
     <Container fluid id="experience" className="project-section">
@@ -56,6 +62,8 @@ function Experience() {
               <h2 className="project-title">Masai School</h2>
               <h6 className="purple-exp">Assessment Assistant</h6>
               <h7 className="purple-exp-date">March 2024 - August 2024</h7>
+              <br></br> 
+              <h7 className="purple-exp-year">6 months</h7>
               <p className="project-description-exp">
                 Conducted technical interviews to assess student readiness,
                 providing detailed feedback for improvement. Collaborated on
@@ -64,6 +72,11 @@ function Experience() {
                 boosting their confidence and proficiency through personalized
                 coaching.
               </p>
+              <div className="project-tech-stacks" id="project-imgs-exp">
+                <img src={meet} alt="tech"></img>
+                <img src={git} alt="tech"></img>
+                <img src={slack} alt="tech"></img>
+              </div>
               <Button
                 href="https://www.masaischool.com/"
                 className="project-github-link"
@@ -90,7 +103,9 @@ function Experience() {
                 Xfinite Technologies Private Limited{" "}
               </h2>
               <h6 className="purple-exp">Back-End Developer</h6>
-              <h7 className="purple-exp-date">April 2024 - Present</h7>
+              <h7 className="purple-exp-date">April 2024 - September 2025</h7>
+              <br></br> 
+              <h7 className="purple-exp-year">1 year 6 months</h7>
               <p className="project-description-exp">
                 Working with the development team to design, develop, and
                 maintain web applications using Node & Express, React, and
@@ -121,6 +136,49 @@ function Experience() {
               </div>
               <Button
                 href="https://www.xfinite.io/"
+                className="project-github-link"
+                id="github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <SiGooglechrome
+                  style={{ marginRight: "5px", marginBottom: "3px" }}
+                ></SiGooglechrome>
+                Company Web
+              </Button>
+            </div>
+          </Col>
+          <Col md={4} className="project-card">
+            <div className="project-card-view">
+              <img
+                variant="top"
+                className="card-img-top-exp"
+                src={alpha}
+                alt="logo"
+              ></img>
+              <h2 className="project-title">AlphaFrame Private Limited</h2>
+              <h6 className="purple-exp">Full Stack Staff Engineer</h6>
+              <h7 className="purple-exp-date">September 2025 - Present</h7>
+              <p className="project-description-exp">
+                As a Full Stack Staff Engineer, I design, develop, and maintain scalable software systems while ensuring code quality, performance, and security. I collaborate with cross-functional and GTM teams to align technical solutions with business needs and mentor junior developers to drive engineering excellence. My work includes building a SaaS platform powered by AI, Generative AI, and LLM agents, leveraging Node.js, Express, React, and MongoDB to deliver efficient, reusable, and production-ready applications.
+              </p>
+              <h2 className="techstacks">Techstacks:</h2>
+              <div className="project-tech-stacks" id="project-imgs-exp">
+                <img src={aws} alt="tech"></img>
+                <img src={Gcp} alt="tech"></img>
+                <img src={jenkins} alt="tech"></img>
+                <img src={nest} alt="tech"></img>
+                <img src={kuburnetes} alt="tech"></img>
+                <img src={azure} alt="tech"></img>
+                <img src={postgresql} alt="tech"></img>
+                <img src={meta} alt="tech"></img>
+                <img src={redis} alt="tech"></img>
+                <img src={pubsub} alt="tech"></img>
+                <img src={llm} alt="tech"></img>
+                <img src={notion} alt="tech"></img>
+              </div>
+              <Button
+                href="https://www.masaischool.com/"
                 className="project-github-link"
                 id="github"
                 target="_blank"

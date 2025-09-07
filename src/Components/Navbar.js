@@ -15,8 +15,7 @@ import {
   AiOutlineClockCircle,
   AiOutlineSolution,
 } from "react-icons/ai";
-import resume from "../Images/Yuvraj-Jangir-Resume.pdf";
-
+import resume from "../Images/Yuvraj _Jangir_Job_Profile.pdf";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -25,7 +24,7 @@ function NavBar() {
 
   const handleresume = () => {
     window.open(
-      "https://drive.google.com/file/d/1UjlKjWiNfz5WGDaLuZ7NjsOlAliP_yi7/view?usp=sharing",
+      "https://drive.google.com/file/d/1k173FVF483_WbeIqq4IJYc3TH5zL9JlU/view?usp=sharing",
     );
   };
 

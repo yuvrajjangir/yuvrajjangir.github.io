@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import myImg from "../../Images/Profile-Picture-Yuvraj-Jangir.jpg";
 import Tilt from "react-parallax-tilt";
-import resu from "../../Images/Yuvraj-Jangir-Resume.pdf";
+import resu from "../../Images/Yuvraj _Jangir_Job_Profile.pdf";
 import { CgFileDocument, CgPhone } from "react-icons/cg";
 
 function About() {
